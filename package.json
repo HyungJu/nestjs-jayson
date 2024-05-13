@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
-  "private": true,
   "devDependencies": {
     "@nestjs/schematics": "^10.0.1",
     "@nestjs/testing": "^10.0.2",
@@ -47,5 +46,21 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0",
     "tslib": "^2.3.0"
-  }
+  },
+  "description": "Nest.js implementation of JSON-RPC 2.0 built on top of jayson",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyungJu/nestjs-jayson.git"
+  },
+  "keywords": [
+    "nestjs",
+    "jayson",
+    "json-rpc"
+  ],
+  "author": "HyungJu Sung",
+  "bugs": {
+    "url": "https://github.com/HyungJu/nestjs-jayson/issues"
+  },
+  "homepage": "https://github.com/HyungJu/nestjs-jayson#readme"
 }
